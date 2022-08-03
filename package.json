@@ -2,6 +2,7 @@
   "name": "cv_app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sultann-301.github.io/cv-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -14,6 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,5 +51,7 @@
   "bugs": {
     "url": "https://github.com/sultann-301/cv_app/issues"
   },
-  "homepage": "https://github.com/sultann-301/cv_app#readme"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
