@@ -2,7 +2,7 @@
   "name": "cv_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sultann-301.github.io/cv-app",
+  "homepage": "https://sultann-301.github.io/cv_app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
